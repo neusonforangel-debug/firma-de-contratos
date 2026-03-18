@@ -1,0 +1,61 @@
+[18-Feb-2026 10:59:28 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 10:59:28 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/public/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 10:59:50 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 10:59:50 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/public/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 10:59:55 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 10:59:55 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/publichttps://redwm.org/firma/app/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/public/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 11:00:25 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/public/./app/helpers.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 11:00:25 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/public/./app/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/public/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 11:00:25 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/public/./app/helpers.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 11:00:25 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/public/./app/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/public/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/firma/public/index.php on line 2
+[18-Feb-2026 11:06:56 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/app/contract/../app/config.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:06:56 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/app/contract/../app/config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/app/contract/template.php:2
+Stack trace:
+#0 /home/redwm/public_html/firma/public/sign.php(4): require_once()
+#1 {main}
+  thrown in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:07:38 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/app/contract/../app/config.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:07:38 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/app/contract/../app/config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/app/contract/template.php:2
+Stack trace:
+#0 /home/redwm/public_html/firma/public/sign.php(4): require_once()
+#1 {main}
+  thrown in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:07:38 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/app/contract/../app/config.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:07:38 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/app/contract/../app/config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/app/contract/template.php:2
+Stack trace:
+#0 /home/redwm/public_html/firma/public/sign.php(4): require_once()
+#1 {main}
+  thrown in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:15:44 America/Santiago] PHP Warning:  Constant APP_ENV already defined in /home/redwm/public_html/firma/app/config.php on line 18
+[18-Feb-2026 11:15:44 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/firma/app/contract/../app/config.php): Failed to open stream: No such file or directory in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:15:44 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/firma/app/contract/../app/config.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/firma/app/contract/template.php:2
+Stack trace:
+#0 /home/redwm/public_html/firma/public/sign.php(4): require_once()
+#1 {main}
+  thrown in /home/redwm/public_html/firma/app/contract/template.php on line 2
+[18-Feb-2026 11:18:08 America/Santiago] PHP Warning:  Constant APP_ENV already defined in /home/redwm/public_html/firma/app/config.php on line 18
+[18-Feb-2026 11:18:08 America/Santiago] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in /home/redwm/public_html/firma/app/helpers.php on line 27
+[18-Feb-2026 11:18:08 America/Santiago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/redwm/public_html/firma/app/helpers.php on line 28
+[18-Feb-2026 11:18:08 America/Santiago] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in /home/redwm/public_html/firma/app/helpers.php on line 27
+[18-Feb-2026 11:18:08 America/Santiago] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/redwm/public_html/firma/app/helpers.php on line 28
+[18-Feb-2026 12:53:01 America/Santiago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'redwm_contratos'@'localhost' (using password: YES) in /home/redwm/public_html/firma/app/db.php:14
+Stack trace:
+#0 /home/redwm/public_html/firma/app/db.php(14): PDO->__construct('mysql:host=loca...', 'redwm_contratos', 'CLAVESCLAVES', Array)
+#1 /home/redwm/public_html/firma/public/sign.php(11): db()
+#2 {main}
+  thrown in /home/redwm/public_html/firma/app/db.php on line 14
