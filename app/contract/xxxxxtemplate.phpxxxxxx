@@ -1,0 +1,29 @@
+<?php
+require_once __DIR__ . '/../config.php';
+
+function contract_text(array $c, array $k): string {
+    // $c = cliente, $k = contrato
+    $price = number_format((int)$k['price_cop'], 0, ',', '.');
+    $term  = (int)$k['term_months'];
+
+    return "CONTRATO DE PRESTACIÓN DE SERVICIOS DE FACTURACIÓN ELECTRÓNICA (PLAN ANUAL)\n"
+    . "Versión: " . CONTRACT_VERSION . "\n\n"
+    . "Entre: REDWM - WESHMARK (en adelante, \"EL PROVEEDOR\") y " . $c['company_name'] . " NIT " . $c['nit'] . " (en adelante, \"EL CLIENTE\").\n\n"
+    . "1. OBJETO\n"
+    . "EL PROVEEDOR prestará al CLIENTE el servicio de software de facturación electrónica y componentes asociados, incluyendo actualizaciones y mejoras continuas.\n\n"
+    . "2. VIGENCIA\n"
+    . "El plan tiene una vigencia de {$term} meses contados desde la fecha de firma.\n\n"
+    . "3. VALOR Y FORMA DE PAGO\n"
+    . "El CLIENTE pagará la suma de COP $ {$price} mensuales, por adelantado. El no pago suspende el servicio y el soporte hasta ponerse al día.\n\n"
+    . "4. SOPORTE 7/24\n"
+    . "Soporte 7/24 mediante orden de entrada de solicitudes (mesa de ayuda). Las solicitudes se atienden por prioridad y criticidad.\n\n"
+    . "5. ACTUALIZACIONES\n"
+    . "EL PROVEEDOR realizará actualizaciones periódicas. Se informarán con antelación razonable, y podrán incluir mejoras funcionales y de seguridad.\n\n"
+    . "6. HABEAS DATA Y TRATAMIENTO DE DATOS\n"
+    . "EL CLIENTE autoriza el tratamiento de datos conforme a la Ley 1581 de 2012 y normas aplicables. EL PROVEEDOR aplicará medidas de seguridad y atenderá solicitudes de consulta, actualización y supresión.\n\n"
+    . "7. INCUMPLIMIENTO Y REPORTE\n"
+    . "Si el CLIENTE incurre en mora, EL PROVEEDOR podrá suspender el servicio. En caso de persistir el incumplimiento, el CLIENTE podrá ser reportado a centrales de riesgo (p.ej. Datacrédito) conforme al marco legal aplicable, previa comunicación y debido proceso.\n\n"
+    . "8. ACEPTACIÓN\n"
+    . "La firma digital realizada en esta plataforma constituye aceptación expresa del presente contrato y de sus anexos.\n";
+}
+?>
