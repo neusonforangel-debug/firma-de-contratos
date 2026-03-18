@@ -1,0 +1,152 @@
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 220-cp008.servidoresph.com ESMTP Exim 4.99.1 #2 Wed, 18 Feb 2026 13:04:54 -0300 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: EHLO redwm.org
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 250-cp008.servidoresph.com Hello redwm.org [169.197.91.242]
+250-SIZE 52428800
+250-LIMITS MAILMAX=1000 RCPTMAX=50000
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: [credentials hidden]
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 235 Authentication succeeded
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: MAIL FROM:<contratos@redwm.org>
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 250 OK
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: RCPT TO:<neusonfor.angel@gmail.com>
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 250 Accepted
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: DATA
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 354 Enter message, ending with "." on a line by itself
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Date: Wed, 18 Feb 2026 13:04:54 -0300
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: To: neusonfor.angel@gmail.com
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: From: REDWM - Firma Digital <contratos@redwm.org>
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Reply-To: contratos@redwm.org
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Subject: =?UTF-8?Q?Nuevo_c=C3=B3digo_de_firma_-_REDWM?=
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Message-ID: <pOX5IzKhYscScGNNpUH60cK6mMa9Hd51aPALrbCVo@redwm.org>
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER:  boundary="b1=_pOX5IzKhYscScGNNpUH60cK6mMa9Hd51aPALrbCVo"
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: --b1=_pOX5IzKhYscScGNNpUH60cK6mMa9Hd51aPALrbCVo
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Hola eerrrr,Este es tu nuevo código de firma:853160Firma aquí: https://redwm.org/firma/public/sign.php?token=736bf9b56489ff3ca168930143595b0195880b3f60af33681bce9b5b260c057aVence en 15 minutos.
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: --b1=_pOX5IzKhYscScGNNpUH60cK6mMa9Hd51aPALrbCVo
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: <p>Hola <b>eerrrr</b>,</p><p>Este es tu nuevo código de firma:</p><h2 style='letter-spacing:2px'>853160</h2><p>Firma aquí: <a href='https://redwm.org/firma/public/sign.php?token=736bf9b56489ff3ca168930143595b0195880b3f60af33681bce9b5b260c057a'>https://redwm.org/firma/public/sign.php?token=736bf9b56489ff3ca168930143595b0195880b3f60af33681bce9b5b260c057a</a></p><p>Vence en 15 minutos.</p>
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: --b1=_pOX5IzKhYscScGNNpUH60cK6mMa9Hd51aPALrbCVo--
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: 
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: .
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 250 OK id=1vsk2n-00000009O7r-2Gej
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[1]: CLIENT -> SERVER: QUIT
+
+[18-Feb-2026 13:04:54 America/Santiago] SMTP_DEBUG[2]: SERVER -> CLIENT: 221 cp008.servidoresph.com closing connection
+
+[18-Feb-2026 18:34:06 America/Santiago] PHP Fatal error:  Cannot redeclare require_admin() (previously declared in /home/redwm/public_html/avanza/app/helpers.php:242) in /home/redwm/public_html/avanza/app/rbac.php on line 16
+[18-Feb-2026 18:34:22 America/Santiago] PHP Fatal error:  Cannot redeclare require_admin() (previously declared in /home/redwm/public_html/avanza/app/helpers.php:242) in /home/redwm/public_html/avanza/app/rbac.php on line 16
+[18-Feb-2026 18:37:17 America/Santiago] PHP Fatal error:  Cannot redeclare require_role() (previously declared in /home/redwm/public_html/avanza/app/helpers.php:191) in /home/redwm/public_html/avanza/app/rbac.php on line 19
+[18-Feb-2026 19:13:57 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:13:57 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:20 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:20 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:16:21 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:40 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:40 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:41 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:41 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:42 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 19:32:42 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 20:59:55 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 20:59:55 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/panel.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/panel.php on line 4
+[18-Feb-2026 21:03:21 America/Santiago] PHP Warning:  require_once(/home/redwm/public_html/avanza/admin/../app/rbac.php): Failed to open stream: No such file or directory in /home/redwm/public_html/avanza/admin/users.php on line 4
+[18-Feb-2026 21:03:21 America/Santiago] PHP Fatal error:  Uncaught Error: Failed opening required '/home/redwm/public_html/avanza/admin/../app/rbac.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/redwm/public_html/avanza/admin/users.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/redwm/public_html/avanza/admin/users.php on line 4
